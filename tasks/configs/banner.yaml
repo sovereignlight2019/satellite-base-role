@@ -1,0 +1,4 @@
+---
+
+- name: Copy Issue / Banner
+  copy: src=files/issue dest=/etc/issue

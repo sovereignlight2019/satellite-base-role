@@ -1,0 +1,6 @@
+---
+# tasks file for /usr/share/ansible/roles/base_host_config
+
+# Install PostgreSQL-Server
+- name: Install postgresql-server
+  yum: name=postgresql-server state=latest

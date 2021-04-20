@@ -1,0 +1,4 @@
+---
+
+- import_tasks: packages/base_packages.yaml
+- import_tasks: packages/application_packages.yaml

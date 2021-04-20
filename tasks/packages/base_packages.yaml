@@ -1,0 +1,6 @@
+---
+# tasks file for /usr/share/ansible/roles/base_host_config
+
+# Install Telnet
+- name: Install Telnet Package
+  yum: name=telnet state=latest

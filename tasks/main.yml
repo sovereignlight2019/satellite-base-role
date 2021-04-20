@@ -1,0 +1,5 @@
+---
+# tasks file for /usr/share/ansible/roles/base_host_config
+
+- import_tasks: packages.yaml
+- import_tasks: config_files.yaml
